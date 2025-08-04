@@ -15,15 +15,11 @@ def pdf_to_xml():
     print(f"Input PDF directory: {input_dir}")
     print(f"Output XML directory: {output_dir}")
 
-    # Grobidサーバーの設定
-    config = {
-        "grobid_server": "http://localhost:8070",
-        "batch_size": 1000,
-        "sleep_time": 5,
-        "timeout": 60
-    }
-
-    client = GrobidClient(config=config)
+    # プロジェクトルートにあるconfig.jsonへのパスを指定
+    config_path = "./config.json"
+    
+    # config_path引数を使ってクライアントを初期化
+    client = GrobidClient(config_path=config_path)
 
     # 処理を実行
     client.process(
