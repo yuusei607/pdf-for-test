@@ -57,3 +57,21 @@ Traceback (most recent call last):
     raise new_e
 urllib3.exceptions.SSLError: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)
 
+aphase@LAPTOP-3U6K5V9L MINGW64 ~/solid-state-battery-test/solid-state-battery-LLM (main)
+$ python -m utils.pdf_to_xml_windows
+Input PDF directory: resources\pdf
+Output XML directory: resources\out_xml
+GROBID server is up and running
+Processing of resources\pdf\1-s2.0-S2352152X24035497-main.pdf failed with error 408 , None
+Processing of resources\pdf\d4ya00138a.pdf failed with error 408 , None
+Processing of resources\pdf\1-s2.0-S1452398123157324-main.pdf failed with error 408 , None
+Processing of resources\pdf\d4ra06867j.pdf failed with error 408 , None
+Processing of resources\pdf\1-s2.0-S2950264025000371-main.pdf failed with error 408 , None
+Processing of resources\pdf\1-s2.0-S1385894725024593-main.pdf failed with error 408 , None
+Processing of resources\pdf\1-s2.0-S1631074804003418-main.pdf failed with error 408 , None
+Processing of resources\pdf\1-s2.0-S1631074804003406-main.pdf failed with error 408 , None
+Processing of resources\pdf\d4sc06492e.pdf failed with error 408 , None
+Processing of resources\pdf\1-s2.0-S2949736124000873-main.pdf failed with error 408 , None
+
+PDF to XML conversion complete.
+
