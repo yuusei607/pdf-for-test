@@ -1,0 +1,40 @@
+from grobid_client.grobid_client import GrobidClient
+from pathlib import Path
+
+def pdf_to_xml():
+    """
+    固定の入力/出力ディレクトリでPDFからXMLへの変換を実行する
+    """
+    # 入力/出力ディレクトリを直接指定
+    input_dir = Path("./resources/pdf")
+    output_dir = Path("./resources/out_xml")
+
+    # 出力ディレクトリが存在しない場合は作成する
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    print(f"Input PDF directory: {input_dir}")
+    print(f"Output XML directory: {output_dir}")
+
+    # Grobidサーバーの設定
+    config = {
+        "grobid_server": "http://localhost:8070",
+        "batch_size": 1000,
+        "sleep_time": 5,
+        "timeout": 60
+    }
+
+    client = GrobidClient(config=config)
+
+    # 処理を実行
+    client.process(
+        "processFulltextDocument",
+        str(input_dir),
+        output=str(output_dir),
+        force=True,
+    )
+
+    print("\nPDF to XML conversion complete.")
+
+
+# スクリプトが実行されたら、上記の関数を呼び出す
+pdf_to_xml()
