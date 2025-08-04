@@ -75,3 +75,7 @@ Processing of resources\pdf\1-s2.0-S2949736124000873-main.pdf failed with error 
 
 PDF to XML conversion complete.
 
+python -m utils.xml_to_json \
+    --input-xml ./resources/out_xml \
+    --input-xml-openalex ./resources/out_xml \
+    --output-json ./resources/out_json
