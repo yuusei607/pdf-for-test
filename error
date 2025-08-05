@@ -79,3 +79,15 @@ python -m utils.xml_to_json \
     --input-xml ./resources/out_xml \
     --input-xml-openalex ./resources/out_xml \
     --output-json ./resources/out_json
+$ python -m utils.xml_to_json     --input-xml ./resources/out_xml     --input-xml-openalex ./resources/out_xml     --output-json ./resources/out_json
+Found 10 XML files to process...
+--------------------------------------------------
+
+==============================
+      Processing Summary
+==============================
+Total XML files found: 10
+Successfully converted:  1
+Rejected (license):    9
+Failed (errors):       0
+==============================
