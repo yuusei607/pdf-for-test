@@ -91,3 +91,47 @@ Successfully converted:  1
 Rejected (license):    9
 Failed (errors):       0
 ==============================
+
+
+aphase@LAPTOP-3U6K5V9L MINGW64 ~/solid-state-battery-test/solid-state-battery-LLM (dev)
+$ ./run_task_d.bash
+[STEP 1] Running paper_scraping.py for years 2026 to 2027
+Traceback (most recent call last):
+  File "C:\Users\aphase\solid-state-battery-test\solid-state-battery-LLM\paper_scraping.py", line 2, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+[STEP 2] Converting PDFs to XML using Grobid
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+[STEP 3] Searching XML files for query: battery
+Traceback (most recent call last):
+  File "C:\Users\aphase\solid-state-battery-test\solid-state-battery-LLM\search_query.py", line 3, in <module>
+    from utils.utils import search_xml_content
+  File "C:\Users\aphase\solid-state-battery-test\solid-state-battery-LLM\utils\utils.py", line 12, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'
+[STEP 4] Converting XMLs to JSON
+Python was not found; run without arguments to install from the Microsoft Store, or disable this shortcut from Settings > Apps > Advanced app settings > App execution aliases.
+[STEP 5] Correcting extracted text of JSON
+garbledlist.json
+Traceback (most recent call last):
+  File "C:\Users\aphase\solid-state-battery-test\solid-state-battery-LLM\json_correction.py", line 34, in <module>
+    main(args)
+    ~~~~^^^^^^
+  File "C:\Users\aphase\solid-state-battery-test\solid-state-battery-LLM\json_correction.py", line 18, in main
+    fj.fix_json(target_filepath, output_filepath)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\aphase\solid-state-battery-test\solid-state-battery-LLM\utils\fix_json_utils.py", line 351, in fix_json
+    fixed_paper_json["title"] = fix_text_in_a_lump(title)
+                                ~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "C:\Users\aphase\solid-state-battery-test\solid-state-battery-LLM\utils\fix_json_utils.py", line 321, in fix_text_in_a_lump
+    fixed_text = replace_garbled(text)
+  File "C:\Users\aphase\solid-state-battery-test\solid-state-battery-LLM\utils\fix_json_utils.py", line 297, in replace_garbled
+    wordlist: dict = json.load(f)
+                     ~~~~~~~~~^^^
+  File "C:\Users\aphase\AppData\Local\Programs\Python\Python313\Lib\json\__init__.py", line 293, in load
+    return loads(fp.read(),
+                 ~~~~~~~^^
+UnicodeDecodeError: 'cp932' codec can't decode byte 0x8e in position 136: illegal multibyte sequence
+
+
