@@ -530,3 +530,497 @@ Using cached sentence_transformers-4.1.0-py3-none-any.whl (345 kB)
 Using cached tokenizers-0.21.1-cp39-abi3-win_amd64.whl (2.4 MB)
 Using cached transformers-4.48.2-py3-none-any.whl (9.7 MB)
 Installing collected packages: pandas, nltk, matplotlib, jupyter_client, ipython, inflect, huggingface-hub, httpx, google-auth, cryptography, tokenizers, seaborn, pdfminer.six, openai, ipykernel, transformers, sentence-transformers
+
+
+aphase@LAPTOP-3U6K5V9L MINGW64 ~/solid-state-battery-test/solid-state-battery-LLM (dev)
+$ python paper_scraping.py --start "2026" --end "2027" --out-pdf "./resources/out_pdf" --out-xml "./resources/out_xml" --out-pdf-openalex "./resources/out_pdf_openalex"
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Heliyon)
+Papers count: 0
+Obtained papers: 0 / 0
+Heliyon：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Energy Reports)
+Papers count: 0
+Obtained papers: 0 / 0
+Energy Reports：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Energy Procedia)
+Papers count: 0
+Obtained papers: 0 / 0
+Energy Procedia：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(International Journal of Electrochemical Science)
+Papers count: 0
+Obtained papers: 0 / 0
+International Journal of Electrochemical Science：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(RSC Advances)
+Papers count: 0
+Obtained papers: 0 / 0
+RSC Advances：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Applied Energy)
+Papers count: 0
+Obtained papers: 0 / 0
+Applied Energy：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Journal of Energy Storage)
+Papers count: 0
+Obtained papers: 0 / 0
+Journal of Energy Storage：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Chemical Science)
+Papers count: 0
+Obtained papers: 0 / 0
+Chemical Science：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Results in Engineering)
+Papers count: 0
+Obtained papers: 0 / 0
+Results in Engineering：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(iScience)
+Papers count: 0
+Obtained papers: 0 / 0
+iScience：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Journal of Power Sources)
+Papers count: 0
+Obtained papers: 0 / 0
+Journal of Power Sources：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Joule)
+Papers count: 0
+Obtained papers: 0 / 0
+Joule：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Desalination and Water Treatment)
+Papers count: 0
+Obtained papers: 0 / 0
+Desalination and Water Treatment：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Materials Advances)
+Papers count: 0
+Obtained papers: 0 / 0
+Materials Advances：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(International Journal of Hydrogen Energy)
+Papers count: 0
+Obtained papers: 0 / 0
+International Journal of Hydrogen Energy：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Case Studies in Thermal Engineering)
+Papers count: 0
+Obtained papers: 0 / 0
+Case Studies in Thermal Engineering：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Energy)
+Papers count: 2
+Obtained papers: 2 / 2
+[Elsevier] Full text saved for 10.1016/j.renene.2025.123886
+[Elsevier] Full text saved for 10.1016/j.renene.2025.123942
+Energy：2026　Count：2 / 2
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Energy Advances)
+Papers count: 0
+Obtained papers: 0 / 0
+Energy Advances：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Cell Reports Physical Science)
+Papers count: 0
+Obtained papers: 0 / 0
+Cell Reports Physical Science：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Energy Conversion and Management: X)
+Papers count: 0
+Obtained papers: 0 / 0
+Energy Conversion and Management: X：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Energy Strategy Reviews)
+Papers count: 0
+Obtained papers: 0 / 0
+Energy Strategy Reviews：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Chemical Engineering Journal)
+Papers count: 0
+Obtained papers: 0 / 0
+Chemical Engineering Journal：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Electrochimica Acta)
+Papers count: 0
+Obtained papers: 0 / 0
+Electrochimica Acta：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Journal of Alloys and Compounds)
+Papers count: 0
+Obtained papers: 0 / 0
+Journal of Alloys and Compounds：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Nano Energy)
+Papers count: 0
+Obtained papers: 0 / 0
+Nano Energy：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Applied Surface Science)
+Papers count: 0
+Obtained papers: 0 / 0
+Applied Surface Science：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Energy Storage Materials)
+Papers count: 0
+Obtained papers: 0 / 0
+Energy Storage Materials：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Ceramics International)
+Papers count: 0
+Obtained papers: 0 / 0
+Ceramics International：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Materials Today: Proceedings)
+Papers count: 0
+Obtained papers: 0 / 0
+Materials Today: Proceedings：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Renewable Energy)
+Papers count: 2
+Obtained papers: 2 / 2
+Renewable Energy：2026　Count：0 / 2
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Journal of Electroanalytical Chemistry)
+Papers count: 0
+Obtained papers: 0 / 0
+Journal of Electroanalytical Chemistry：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Carbon)
+Papers count: 0
+Obtained papers: 0 / 0
+Carbon：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Journal of Energy Chemistry)
+Papers count: 0
+Obtained papers: 0 / 0
+Journal of Energy Chemistry：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Materials Chemistry and Physics)
+Papers count: 0
+Obtained papers: 0 / 0
+Materials Chemistry and Physics：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Journal of Colloid and Interface Science)
+Papers count: 0
+Obtained papers: 0 / 0
+Journal of Colloid and Interface Science：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Energy Conversion and Management)
+Papers count: 0
+Obtained papers: 0 / 0
+Energy Conversion and Management：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Renewable and Sustainable Energy Reviews)
+Papers count: 0
+Obtained papers: 0 / 0
+Renewable and Sustainable Energy Reviews：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Journal of Materials Research and Technology)
+Papers count: 0
+Obtained papers: 0 / 0
+Journal of Materials Research and Technology：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Electrochemistry Communications)
+Papers count: 0
+Obtained papers: 0 / 0
+Electrochemistry Communications：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Matter)
+Papers count: 0
+Obtained papers: 0 / 0
+Matter：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Nanoscale Advances)
+Papers count: 0
+Obtained papers: 0 / 0
+Nanoscale Advances：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Materials & Design)
+Papers count: 0
+Obtained papers: 0 / 0
+Materials & Design：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Arabian Journal of Chemistry)
+Papers count: 0
+Obtained papers: 0 / 0
+Arabian Journal of Chemistry：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Materials Letters)
+Papers count: 0
+Obtained papers: 0 / 0
+Materials Letters：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Solid State Ionics)
+Papers count: 0
+Obtained papers: 0 / 0
+Solid State Ionics：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Chem)
+Papers count: 0
+Obtained papers: 0 / 0
+Chem：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Materials Today)
+Papers count: 0
+Obtained papers: 0 / 0
+Materials Today：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Progress in Natural Science: Materials International)
+Papers count: 0
+Obtained papers: 0 / 0
+Progress in Natural Science: Materials International：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Beilstein Journal of Nanotechnology)
+Papers count: 0
+Obtained papers: 0 / 0
+Beilstein Journal of Nanotechnology：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Results in Physics)
+Papers count: 0
+Obtained papers: 0 / 0
+Results in Physics：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Green Energy & Environment)
+Papers count: 0
+Obtained papers: 0 / 0
+Green Energy & Environment：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Physics Procedia)
+Papers count: 0
+Obtained papers: 0 / 0
+Physics Procedia：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Sensors and Actuators B: Chemical)
+Papers count: 0
+Obtained papers: 0 / 0
+Sensors and Actuators B: Chemical：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Materials Research Bulletin)
+Papers count: 0
+Obtained papers: 0 / 0
+Materials Research Bulletin：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Energy Policy)
+Papers count: 0
+Obtained papers: 0 / 0
+Energy Policy：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Fuel Cells Bulletin)
+Papers count: 0
+Obtained papers: 0 / 0
+Fuel Cells Bulletin：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Synthetic Metals)
+Papers count: 0
+Obtained papers: 0 / 0
+Synthetic Metals：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Journal of Hazardous Materials)
+Papers count: 0
+Obtained papers: 0 / 0
+Journal of Hazardous Materials：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Journal of Physics and Chemistry of Solids)
+Papers count: 0
+Obtained papers: 0 / 0
+Journal of Physics and Chemistry of Solids：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Smart Materials Bulletin)
+Papers count: 0
+Obtained papers: 0 / 0
+Smart Materials Bulletin：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Metal Powder Report)
+Papers count: 0
+Obtained papers: 0 / 0
+Metal Powder Report：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Polymer Testing)
+Papers count: 0
+Obtained papers: 0 / 0
+Polymer Testing：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(New Scientist)
+Papers count: 0
+Obtained papers: 0 / 0
+New Scientist：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Procedia Engineering)
+Papers count: 0
+Obtained papers: 0 / 0
+Procedia Engineering：2026　Count：0 / 1
+
+Running query: OPENACCESS(1) AND LANGUAGE(english) AND PUBYEAR = 2026 AND SRCTITLE(Alexandria Engineering Journal)
+Papers count: 0
+Obtained papers: 0 / 0
+Alexandria Engineering Journal：2026　Count：0 / 1
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(2022 IEEE International Conference on Manipulation, Manufacturing and Measurement on the Nanoscale (3M-NANO))
+[Error] OpenAlex API status code: 403
+2022 IEEE International Conference on Manipulation, Manufacturing and Measurement on the Nanoscale (3M-NANO)：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(2D Materials)
+[OpenAlex] Found source ID: https://openalex.org/S4210229423 for journal: 2D Materials
+2D Materials：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Applied Electronic Materials)
+[OpenAlex] Found source ID: https://openalex.org/S4210217399 for journal: ACS Applied Electronic Materials
+ACS Applied Electronic Materials：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Applied Energy Materials)
+[OpenAlex] Found source ID: https://openalex.org/S4210188958 for journal: ACS Applied Energy Materials
+ACS Applied Energy Materials：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Applied Engineering Materials)
+[OpenAlex] Found source ID: https://openalex.org/S4387282792 for journal: ACS Applied Engineering Materials
+ACS Applied Engineering Materials：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Applied Materials & Interfaces)
+[OpenAlex] Found source ID: https://openalex.org/S164001016 for journal: ACS Applied Materials & Interfaces
+ACS Applied Materials & Interfaces：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Applied Nano Materials)
+[OpenAlex] Found source ID: https://openalex.org/S4210191493 for journal: ACS Applied Nano Materials
+ACS Applied Nano Materials：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Applied Polymer Materials)
+[OpenAlex] Found source ID: https://openalex.org/S4210221646 for journal: ACS Applied Polymer Materials
+ACS Applied Polymer Materials：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Catalysis)
+[OpenAlex] Found source ID: https://openalex.org/S37391459 for journal: ACS Catalysis
+ACS Catalysis：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Energy Letters)
+[OpenAlex] Found source ID: https://openalex.org/S2764414965 for journal: ACS Energy Letters
+ACS Energy Letters：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Macro Letters)
+[OpenAlex] Found source ID: https://openalex.org/S75495113 for journal: ACS Macro Letters
+ACS Macro Letters：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Materials Au)
+[OpenAlex] Found source ID: https://openalex.org/S4210204497 for journal: ACS Materials Au
+ACS Materials Au：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Materials Letters)
+[OpenAlex] Found source ID: https://openalex.org/S4210213087 for journal: ACS Materials Letters
+ACS Materials Letters：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Measurement Science Au)
+[OpenAlex] Found source ID: https://openalex.org/S4210196245 for journal: ACS Measurement Science Au
+ACS Measurement Science Au：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Nano)
+[OpenAlex] Found source ID: https://openalex.org/S145476921 for journal: ACS Nano
+ACS Nano：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Omega)
+[OpenAlex] Found source ID: https://openalex.org/S4210239500 for journal: ACS Omega
+ACS Omega：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Physical Chemistry Au)
+[OpenAlex] Found source ID: https://openalex.org/S4210221318 for journal: ACS Physical Chemistry Au
+ACS Physical Chemistry Au：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Sustainable Chemistry & Engineering)
+[OpenAlex] Found source ID: https://openalex.org/S2502047864 for journal: ACS Sustainable Chemistry & Engineering
+ACS Sustainable Chemistry & Engineering：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS Sustainable Resource Management)
+[OpenAlex] Found source ID: https://openalex.org/S4389158299 for journal: ACS Sustainable Resource Management
+ACS Sustainable Resource Management：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(ACS electrochemistry.)
+[OpenAlex] Found source ID: https://openalex.org/S4404674019 for journal: ACS electrochemistry.
+ACS electrochemistry.：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(AIChE Journal)
+[OpenAlex] Found source ID: https://openalex.org/S147177414 for journal: AIChE Journal
+AIChE Journal：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(AIMS Energy)
+[OpenAlex] Found source ID: https://openalex.org/S4210171717 for journal: AIMS Energy
+AIMS Energy：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(AIMS Materials Science)
+[OpenAlex] Found source ID: https://openalex.org/S4210234426 for journal: AIMS Materials Science
+AIMS Materials Science：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(AIMS energy)
+[OpenAlex] Found source ID: https://openalex.org/S4210171717 for journal: AIMS energy
+AIMS energy：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(AIP Advances)
+[OpenAlex] Found source ID: https://openalex.org/S189917590 for journal: AIP Advances
+AIP Advances：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Accounts of Chemical Research)
+[OpenAlex] Found source ID: https://openalex.org/S145378405 for journal: Accounts of Chemical Research
+Accounts of Chemical Research：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Accounts of Materials Research)
+[OpenAlex] Found source ID: https://openalex.org/S4210211377 for journal: Accounts of Materials Research
+Accounts of Materials Research：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Acta Chimica Sinica)
+[OpenAlex] Found source ID: https://openalex.org/S205376447 for journal: Acta Chimica Sinica
+Acta Chimica Sinica：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Acta Materialia)
+[OpenAlex] Found source ID: https://openalex.org/S64016596 for journal: Acta Materialia
+Acta Materialia：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Acta Physica Polonica A)
+[OpenAlex] Found source ID: https://openalex.org/S63733671 for journal: Acta Physica Polonica A
+Acta Physica Polonica A：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Acta Physica Sinica)
+[OpenAlex] Found source ID: https://openalex.org/S950076683 for journal: Acta Physica Sinica
+Acta Physica Sinica：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Acta Physico-Chimica Sinica)
+[OpenAlex] Found source ID: https://openalex.org/S138757394 for journal: Acta Physico-Chimica Sinica
+Acta Physico-Chimica Sinica：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Advanced Composites and Hybrid Materials)
+[OpenAlex] Found source ID: https://openalex.org/S4210207107 for journal: Advanced Composites and Hybrid Materials
+Advanced Composites and Hybrid Materials：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Advanced Energy Materials)
+[OpenAlex] Found source ID: https://openalex.org/S2502627819 for journal: Advanced Energy Materials
+Advanced Energy Materials：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Advanced Energy and Sustainability Research)
+[OpenAlex] Found source ID: https://openalex.org/S4210231858 for journal: Advanced Energy and Sustainability Research
+Advanced Energy and Sustainability Research：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Advanced Engineering Materials)
+[OpenAlex] Found source ID: https://openalex.org/S156255550 for journal: Advanced Engineering Materials
+Advanced Engineering Materials：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Advanced Fiber Materials)
+[OpenAlex] Found source ID: https://openalex.org/S4210182575 for journal: Advanced Fiber Materials
+Advanced Fiber Materials：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Advanced Functional Materials)
+[OpenAlex] Found source ID: https://openalex.org/S135204980 for journal: Advanced Functional Materials
+Advanced Functional Materials：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Advanced Materials)
+[OpenAlex] Found source ID: https://openalex.org/S99352657 for journal: Advanced Materials
+Advanced Materials：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Advanced Materials Interfaces)
+[OpenAlex] Found source ID: https://openalex.org/S2764385675 for journal: Advanced Materials Interfaces
+Advanced Materials Interfaces：2026　Count：0 / 0
+
+Running query: PUBYEAR = 2026 AND SRCTITLE(Advanced Materials Research)
+[OpenAlex] Found source ID: https://openalex.org/S67425620 for journal: Advanced Materials Research
