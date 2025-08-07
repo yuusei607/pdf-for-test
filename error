@@ -234,3 +234,152 @@ Traceback (most recent call last):
     with open(output_filepath, 'w', encoding='utf-8') as f:
          ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\aphase\\solid-state-battery-test\\solid-state-battery-LLM\\resources\\fixed_json\\fixed_1-s2.0-S1385894725024593-main.grobid.tei.json'
+
+
+
+$ pip install -r requirements.txt
+Collecting annotated-types==0.7.0 (from -r requirements.txt (line 1))
+  Using cached annotated_types-0.7.0-py3-none-any.whl.metadata (15 kB)
+Collecting anyio==4.9.0 (from -r requirements.txt (line 2))
+  Using cached anyio-4.9.0-py3-none-any.whl.metadata (4.7 kB)
+Collecting appnope==0.1.4 (from -r requirements.txt (line 3))
+  Using cached appnope-0.1.4-py2.py3-none-any.whl.metadata (908 bytes)
+Collecting asttokens==3.0.0 (from -r requirements.txt (line 4))
+  Using cached asttokens-3.0.0-py3-none-any.whl.metadata (4.7 kB)
+Requirement already satisfied: beautifulsoup4==4.13.4 in c:\users\aphase\appdata\local\programs\python\python313\lib\site-packages (from -r requirements.txt (line 5)) (4.13.4)
+Collecting cachetools==5.5.2 (from -r requirements.txt (line 6))
+  Using cached cachetools-5.5.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting certifi==2025.1.31 (from -r requirements.txt (line 7))
+  Using cached certifi-2025.1.31-py3-none-any.whl.metadata (2.5 kB)
+Collecting cffi==1.17.1 (from -r requirements.txt (line 8))
+  Using cached cffi-1.17.1-cp313-cp313-win_amd64.whl.metadata (1.6 kB)
+Collecting charset-normalizer==3.4.1 (from -r requirements.txt (line 9))
+  Using cached charset_normalizer-3.4.1-cp313-cp313-win_amd64.whl.metadata (36 kB)
+Collecting click==8.1.8 (from -r requirements.txt (line 10))
+  Using cached click-8.1.8-py3-none-any.whl.metadata (2.3 kB)
+Collecting comm==0.2.2 (from -r requirements.txt (line 11))
+  Using cached comm-0.2.2-py3-none-any.whl.metadata (3.7 kB)
+Collecting contourpy==1.3.0 (from -r requirements.txt (line 12))
+  Using cached contourpy-1.3.0-cp313-cp313-win_amd64.whl.metadata (5.4 kB)
+Collecting cryptography==45.0.3 (from -r requirements.txt (line 13))
+  Using cached cryptography-45.0.3-cp311-abi3-win_amd64.whl.metadata (5.7 kB)
+Requirement already satisfied: cycler==0.12.1 in c:\users\aphase\appdata\local\programs\python\python313\lib\site-packages (from -r requirements.txt (line 14)) (0.12.1)
+Collecting debugpy==1.8.14 (from -r requirements.txt (line 15))
+  Using cached debugpy-1.8.14-cp313-cp313-win_amd64.whl.metadata (1.4 kB)
+Collecting decorator==5.2.1 (from -r requirements.txt (line 16))
+  Using cached decorator-5.2.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting distro==1.9.0 (from -r requirements.txt (line 17))
+  Using cached distro-1.9.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting editdistpy==0.1.5 (from -r requirements.txt (line 18))
+  Using cached editdistpy-0.1.5.tar.gz (99 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting exceptiongroup==1.2.2 (from -r requirements.txt (line 19))
+  Using cached exceptiongroup-1.2.2-py3-none-any.whl.metadata (6.6 kB)
+Collecting executing==2.2.0 (from -r requirements.txt (line 20))
+  Using cached executing-2.2.0-py2.py3-none-any.whl.metadata (8.9 kB)
+Collecting filelock==3.18.0 (from -r requirements.txt (line 21))
+  Using cached filelock-3.18.0-py3-none-any.whl.metadata (2.9 kB)
+Collecting fonttools==4.58.4 (from -r requirements.txt (line 22))
+  Using cached fonttools-4.58.4-cp313-cp313-win_amd64.whl.metadata (108 kB)
+Collecting fsspec==2025.3.2 (from -r requirements.txt (line 23))
+  Using cached fsspec-2025.3.2-py3-none-any.whl.metadata (11 kB)
+Collecting google-auth==2.38.0 (from -r requirements.txt (line 24))
+  Using cached google_auth-2.38.0-py2.py3-none-any.whl.metadata (4.8 kB)
+Collecting h11==0.16.0 (from -r requirements.txt (line 25))
+  Using cached h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+Collecting httpcore==1.0.9 (from -r requirements.txt (line 26))
+  Using cached httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+Collecting httpx==0.28.1 (from -r requirements.txt (line 27))
+  Using cached httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting huggingface-hub==0.30.2 (from -r requirements.txt (line 28))
+  Using cached huggingface_hub-0.30.2-py3-none-any.whl.metadata (13 kB)
+Requirement already satisfied: idna==3.10 in c:\users\aphase\appdata\local\programs\python\python313\lib\site-packages (from -r requirements.txt (line 29)) (3.10)
+Collecting importlib_metadata==8.6.1 (from -r requirements.txt (line 30))
+  Using cached importlib_metadata-8.6.1-py3-none-any.whl.metadata (4.7 kB)
+Collecting importlib_resources==6.5.2 (from -r requirements.txt (line 31))
+  Using cached importlib_resources-6.5.2-py3-none-any.whl.metadata (3.9 kB)
+Requirement already satisfied: inflect==7.5.0 in c:\users\aphase\appdata\local\programs\python\python313\lib\site-packages (from -r requirements.txt (line 32)) (7.5.0)
+Collecting ipykernel==6.29.5 (from -r requirements.txt (line 33))
+  Using cached ipykernel-6.29.5-py3-none-any.whl.metadata (6.3 kB)
+Collecting ipython==8.18.1 (from -r requirements.txt (line 34))
+  Using cached ipython-8.18.1-py3-none-any.whl.metadata (6.0 kB)
+Collecting jedi==0.19.2 (from -r requirements.txt (line 35))
+  Using cached jedi-0.19.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting Jinja2==3.1.6 (from -r requirements.txt (line 36))
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting jiter==0.10.0 (from -r requirements.txt (line 37))
+  Using cached jiter-0.10.0-cp313-cp313-win_amd64.whl.metadata (5.3 kB)
+Collecting joblib==1.4.2 (from -r requirements.txt (line 38))
+  Using cached joblib-1.4.2-py3-none-any.whl.metadata (5.4 kB)
+Collecting jupyter_client==8.6.3 (from -r requirements.txt (line 39))
+  Using cached jupyter_client-8.6.3-py3-none-any.whl.metadata (8.3 kB)
+Collecting jupyter_core==5.7.2 (from -r requirements.txt (line 40))
+  Using cached jupyter_core-5.7.2-py3-none-any.whl.metadata (3.4 kB)
+Collecting kiwisolver==1.4.7 (from -r requirements.txt (line 41))
+  Using cached kiwisolver-1.4.7-cp313-cp313-win_amd64.whl.metadata (6.4 kB)
+Collecting Levenshtein==0.27.1 (from -r requirements.txt (line 42))
+  Using cached levenshtein-0.27.1-cp313-cp313-win_amd64.whl.metadata (3.6 kB)
+Collecting lxml==5.4.0 (from -r requirements.txt (line 43))
+  Using cached lxml-5.4.0-cp313-cp313-win_amd64.whl.metadata (3.6 kB)
+Collecting MarkupSafe==3.0.2 (from -r requirements.txt (line 44))
+  Using cached MarkupSafe-3.0.2-cp313-cp313-win_amd64.whl.metadata (4.1 kB)
+Collecting matplotlib==3.9.4 (from -r requirements.txt (line 45))
+  Using cached matplotlib-3.9.4-cp313-cp313-win_amd64.whl.metadata (11 kB)
+Collecting matplotlib-inline==0.1.7 (from -r requirements.txt (line 46))
+  Using cached matplotlib_inline-0.1.7-py3-none-any.whl.metadata (3.9 kB)
+Requirement already satisfied: more-itertools==10.7.0 in c:\users\aphase\appdata\local\programs\python\python313\lib\site-packages (from -r requirements.txt (line 47)) (10.7.0)
+Collecting mpmath==1.3.0 (from -r requirements.txt (line 48))
+  Using cached mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Collecting nest-asyncio==1.6.0 (from -r requirements.txt (line 49))
+  Using cached nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting networkx==3.2.1 (from -r requirements.txt (line 50))
+  Using cached networkx-3.2.1-py3-none-any.whl.metadata (5.2 kB)
+Collecting nltk==3.9.1 (from -r requirements.txt (line 51))
+  Using cached nltk-3.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting numpy==1.26.4 (from -r requirements.txt (line 52))
+  Using cached numpy-1.26.4.tar.gz (15.8 MB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Installing backend dependencies ... done
+  Preparing metadata (pyproject.toml) ... error
+  error: subprocess-exited-with-error
+
+  × Preparing metadata (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [21 lines of output]
+      + C:\Users\aphase\AppData\Local\Programs\Python\Python313\python.exe C:\Users\aphase\AppData\Local\Temp\pip-install-j9i3cba5\numpy_47c0dd65b1cd44509a173defc96e616d\vendored-meson\meson\meson.py setup C:\Users\aphase\AppData\Local\Temp\pip-install-j9i3cba5\numpy_47c0dd65b1cd44509a173defc96e616d C:\Users\aphase\AppData\Local\Temp\pip-install-j9i3cba5\numpy_47c0dd65b1cd44509a173defc96e616d\.mesonpy-t4a5ve35 -Dbuildtype=release -Db_ndebug=if-release -Db_vscrt=md --native-file=C:\Users\aphase\AppData\Local\Temp\pip-install-j9i3cba5\numpy_47c0dd65b1cd44509a173defc96e616d\.mesonpy-t4a5ve35\meson-python-native-file.ini
+      The Meson build system
+      Version: 1.2.99
+      Source dir: C:\Users\aphase\AppData\Local\Temp\pip-install-j9i3cba5\numpy_47c0dd65b1cd44509a173defc96e616d
+      Build dir: C:\Users\aphase\AppData\Local\Temp\pip-install-j9i3cba5\numpy_47c0dd65b1cd44509a173defc96e616d\.mesonpy-t4a5ve35
+      Build type: native build
+      Project name: NumPy
+      Project version: 1.26.4
+      WARNING: Failed to activate VS environment: Could not find C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe
+
+      ..\meson.build:1:0: ERROR: Unknown compiler(s): [['icl'], ['cl'], ['cc'], ['gcc'], ['clang'], ['clang-cl'], ['pgcc']]
+      The following exception(s) were encountered:
+      Running `icl ""` gave "[WinError 2] The system cannot find the file specified"
+      Running `cl /?` gave "[WinError 2] The system cannot find the file specified"
+      Running `cc --version` gave "[WinError 2] The system cannot find the file specified"
+      Running `gcc --version` gave "[WinError 2] The system cannot find the file specified"
+      Running `clang --version` gave "[WinError 2] The system cannot find the file specified"
+      Running `clang-cl /?` gave "[WinError 2] The system cannot find the file specified"
+      Running `pgcc --version` gave "[WinError 2] The system cannot find the file specified"
+
+      A full log can be found at C:\Users\aphase\AppData\Local\Temp\pip-install-j9i3cba5\numpy_47c0dd65b1cd44509a173defc96e616d\.mesonpy-t4a5ve35\meson-logs\meson-log.txt
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+
+[notice] A new release of pip is available: 25.1.1 -> 25.2
+[notice] To update, run: python.exe -m pip install --upgrade pip
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
